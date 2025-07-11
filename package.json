@@ -1,0 +1,36 @@
+{
+  "name": "jintsu-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "api:dev": "tsx watch server/index.ts",
+    "typecheck": "nuxt typecheck",
+    "lint": "eslint .",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.8.0",
+    "chart.js": "^4.4.0",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "date-fns": "^3.0.0",
+    "hono": "^4.2.0",
+    "nuxt": "^3.11.0",
+    "postgres": "^3.4.0",
+    "vue": "^3.4.0",
+    "vue-chartjs": "^5.3.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^0.3.0",
+    "@types/node": "^20.11.0",
+    "eslint": "^9.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "vue-tsc": "^2.0.0"
+  }
+}
